@@ -16,6 +16,7 @@ use App\Http\Controllers\ProdutosController;
 
 //Route::get('/', 'PedidosController@index');
 Route::get('/', [PedidosController::class, 'index']);
+
 Route::get('/produtos', [ProdutosController::class, 'index']);
 
 
